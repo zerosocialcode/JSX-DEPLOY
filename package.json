@@ -1,0 +1,18 @@
+{
+  "name": "jsx-deploy",
+  "version": "1.0.0",
+  "description": "Convert raw JSX files into production-ready, deployable Vite projects automatically.",
+  "main": "index.js",
+  "bin": {
+    "jsx-deploy": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1",
+    "shelljs": "^0.8.5"
+  }
+}
